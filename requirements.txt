@@ -1,0 +1,10 @@
+in cmd
+cd C:\Users\Saumya Poojari\Desktop\BE SEM7\NLP mp\hatespeech
+python -m venv venv
+.\venv\Scripts\activate
+pip install --upgrade pip
+pip install fastapi uvicorn pandas scikit-learn==0.24.2 nltk pyarrow numpy==1.21.4
+
+in vs
+python app.py
+still not working then change port number (eg: 8002 -> 8003)
